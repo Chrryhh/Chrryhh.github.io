@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waifu Finder 3.0</title>
+    <style>
+      body {
+        font-family: 'Trebuchet MS';
+        font-size: 18px;
+        margin-left: 40px;
+        max-width: 1000px;
+      }
+      .avatar {
+        height: 100px;
+        width: 100px;
+        object-fit: cover;
+        border-radius: 50px;
+        object-position: -18px;
+        margin-left: 100px;
+      }
+      .thumbnail {
+        width: 300px;
+      }
+      .search-bar {
+        font-family: 'Trebuchet MS';
+        font-size: 20px;
+        margin-bottom: 20px;
+        padding-left: 10px;
+        width: 285px;
+        border-radius: 15px;
+      }
+      .head-container {
+        width: 300px;
+      }
+
+      .waifu-container-normal {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+        margin-bottom: 30px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+        background-image: url(img/abstract-normal.jpg);
+      }
+      .waifu-container-gold {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+        margin-bottom: 30px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+        background-image: url(img/abstract-gold.jpg);
+      }
+      .waifu-container-platin {
+        width: 300px;
+        display: inline-block;
+        vertical-align: top;
+        margin-right: 15px;
+        margin-bottom: 30px;
+        box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+        background-image: url(img/abstract-platin.jpg);
+      }
+      .waifu-name {
+        font-weight: bold;
+        margin: 0;
+        padding-top: 5px;
+        padding-left: 10px;
+      }
+      .waifu-friends {
+        margin: 0;
+        padding-top: 5px;
+        padding-left: 10px;
+        padding-bottom: 10px;
+        font-size: 16px;
+        color: rgb(255, 255, 255);
+      }
+
+      .add-button {
+        color: rgb(255, 255, 255);
+        background-color: rgb(6, 95, 212);
+        border: none;
+        border-radius: 5px;
+        padding-left: 16px;
+        padding-right: 16px;
+        padding-top: 9px;
+        padding-bottom: 9px;
+        cursor: pointer;
+        margin-left: 10px;
+        margin-bottom: 10px;
+      }
+      .add-button:hover {
+        background-color: rgb(45, 116, 209);
+      }
+      .add-button:active {
+        background-color: rgb(82, 144, 224);
+      }
+      span {
+        color:firebrick;
+      }
+      .check {
+        color: green;
+        padding-left: 10px;
+      }
+
+    </style>
+  </head>
+
+  <body>
+    <div class="head-container">
+      <img class="avatar" src="thumbnails/2.jpg" alt=""><br>
+      <p">WELCOME TO THE WAIFU FINDER <span>3.0</span></p>
+      <input class="search-bar" type="text" placeholder="Search...">
+    </div>
+
+    <div class="waifu-container-normal">
+      <img class="thumbnail" src="thumbnails/1.jpg" alt="">
+      <p class="waifu-name">Shanoa<span class="check">&#10003;</span></p>
+      <p class="waifu-friends">1.257 Freunde</p>
+      <button class="add-button">Add Waifu</button>
+    </div>
+
+    <div class="waifu-container-normal">
+      <img class="thumbnail" src="thumbnails/2.jpg" alt="">
+      <p class="waifu-name">Raven</p>
+      <p class="waifu-friends">74 Freunde</p>
+      <button class="add-button">Add Waifu</button>
+    </div>
+
+    <div class="waifu-container-platin">
+      <img class="thumbnail" src="thumbnails/3.jpg" alt="">
+      <p class="waifu-name">Jill Valentine<span class="check">&#10003;</span></p>
+      <p class="waifu-friends">1.754.255 Freunde</p>
+      <button class="add-button">Add Waifu</button>
+    </div>
+
+    <div class="waifu-container-normal">
+      <img class="thumbnail" src="thumbnails/4.jpg" alt="">
+      <p class="waifu-name">Velvet Crowe</p>
+      <p class="waifu-friends">733 Freunde</p>
+      <button class="add-button">Add Waifu</button>
+    </div>
+
+    <div class="waifu-container-platin">
+      <img class="thumbnail" src="thumbnails/5.jpg" alt="">
+      <p class="waifu-name">Zelda, Royal Princess of Hyrule<span class="check">&#10003;</span></p>
+      <p class="waifu-friends">5.177.376 Freunde</p>
+      <button class="add-button">Add Waifu</button>
+    </div>
+
+    <div class="waifu-container-gold">
+      <img class="thumbnail" src="thumbnails/6.jpg" alt="">
+      <p class="waifu-name">Samus Aran<span class="check">&#10003;</span></p>
+      <p class="waifu-friends">7.062 Freunde</p>
+      <button class="add-button">Add Waifu</button>
+    </div>
+
+    <div class="waifu-container-normal">
+      <img class="thumbnail" src="thumbnails/7.jpg" alt="">
+      <p class="waifu-name">Kainé</p>
+      <p class="waifu-friends">29 Freunde</p>
+      <button class="add-button">Add Waifu</button>
+    </div>
+
+    <div class="waifu-container-gold">
+      <img class="thumbnail" src="thumbnails/8.jpg" alt="">
+      <p class="waifu-name">"2B", YoRHa No.2 Type B</p>
+      <p class="waifu-friends">66.299 Freunde</p>
+      <button class="add-button">Add Waifu</button>
+    </div>
+
+    <div class="waifu-container-normal">
+      <img class="thumbnail" src="thumbnails/9.jpg" alt="">
+      <p class="waifu-name">That Specific Dreamy Space Girl</p>
+      <p class="waifu-friends">2 Freunde</p>
+      <button class="add-button">Add Waifu</button>
+    </div>
+
+
+
+
+
+  </body>
+</html>
