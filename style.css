@@ -1,71 +1,85 @@
 body {
     font-family: 'Open Sans', sans-serif;
-    color: #4b4b4b;
+    color: rgb(75, 75, 75);
+    margin: 0;
+    padding: 0;
 }
 p {
 	text-align: justify;
 	text-align-last: center;
 }
-a {
-    color: #4b4b4b;
-    text-decoration: none;
 
+a {
+    color: rgb(75, 75, 75);
+    text-decoration: none;
 }
-#content {
-    width: 900px;
-    margin: auto;
+
+.logo-container {
+    text-align: center;
 }
+
 .logo-icon {
     width: 60px;
     margin-top: 20px;
     margin-bottom: 20px;
 }
-.logo-container {
-    text-align: center;
-}
+
 .logo-container p {
-    font-family: 'Passion One', cursive;
+    font-family: 'Passion One';
     font-weight: 700;
     font-size: 300%;
+    text-align: center;
     margin-top: 0;
     margin-bottom: 20px;
 }
-#navigation-container {
+
+nav {
     text-align: center;
     background-color: rgb(50, 75, 100);
-    padding: 1px;
+    padding: 7px;
     border-radius: 20px 0 0 0;
+    position: sticky;
+    top: 0;
 }
-#navigation-container a {
+nav a {
     font-weight: bold;
     color: white;
     margin-right: 15px;
     margin-left: 15px;
 }
-#navigation-container a:hover {
+nav a:hover {
     color: rgb(0, 160, 180);
 }
-.image-container {
 
-}
-.image {
+#teaser img {
     width: 100%;
     height: 300px;
     object-fit: cover;
     object-position: top;
     border-radius: 0 0 50px 0;
 }
-.text-container {
-    width: 750px;
+@media screen and (min-width: 950px) {
+    #teaser img {
+      height: 500px;
+    }  
+  }
+
+#main-article {
+    padding-left: 20px;
+    padding-right: 20px;
     margin: auto;
+    max-width: 800px;
 }
-.link {
+
+.article-inline-link, .footer-link {
     color: rgb(0, 120, 135);
     font-weight: bold;
 }
-.verweise {
+
+.article-references {
     color: rgb(0, 160, 180);
 }
+
 .github-link {
     width: 40px;
     display: block;
