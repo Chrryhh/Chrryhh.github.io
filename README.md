@@ -3,7 +3,7 @@
 [EN]
 ## This is an experimental Front End testside
 
-Hello GitHub, 
+Hello GitHub,  
 this page is constantly changing and serves us for exercises, concepts and the like.  
 It is therefore only a practice area.  
 However, if you want, you are welcome to be inspired and adopt the code as you wish.  
