@@ -13,6 +13,7 @@ We do coding as a hobby and are still at the very beginning.
 
 Feel free to visit our subpages, where we present and try out further ideas, drafts and schemes.  
 Not everything there is fully functional, but some things are already working.  
+All information on these pages is purely fictitious. Any resemblance to actual or deceased persons is purely coincidental.  
 Only HTML and CSS have been used here so far.  
 JavaScript is supposed to follow, but we're not that far yet.
 
@@ -32,7 +33,9 @@ Wir selber sind keine beruflichen ProgrammiererInnen oder Web-DesignerInnen.
 Wir betreiben Coding als Hobby und stehen noch ganz am Anfang.
 
 Besucht gerne unsere Unterseiten, auf denen wir weitere Ideen, Entwürfe und Schemata präsentieren und ausprobieren.  
-Nicht alles dort ist voll funktional aber manches klappt bereits. Genutzt wird hier bisher ausschließlich HTML und CSS.  
+Nicht alles dort ist voll funktional aber manches klappt bereits.  
+Alle Angaben auf diesen Seiten sind rein fiktiv. Ähnlichkeiten mit tatsächlich existierenden oder verstorbenen Personen sind rein zufällig.  
+Genutzt wird hier bisher ausschließlich HTML und CSS.  
 JavaScript soll noch folgen, aber so weit sind wir noch nicht.
 
 Wir vom Team Chrryhh wünschen euch allen viel Spass auf unserer Seite und freuen uns über euer freundliches Feedback.
