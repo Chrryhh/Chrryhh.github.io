@@ -1,0 +1,130 @@
+body {
+    font-family: 'Lato', sans-serif;
+    background-color: #fff6eb;
+    padding-left: 50px;
+    padding-right: 50px;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.logo {
+    font-family: 'Marcellus SC', serif;
+    font-size: 2.5em;
+    margin-right: 50px;
+}
+.logo-red {
+    color: #960000;
+    padding-left: 14px;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.image-container {
+    background-color: white;
+    padding: 15px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.header-image {
+    width: 100%;
+    height: 450px;
+    object-fit: cover;
+    object-position: top;
+    display: block;
+} 
+
+a {
+    color: rgb(100, 190, 40);
+    font-weight: 900;
+    text-decoration: none;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+a:hover {
+    text-decoration: underline;
+}
+
+.massage-name {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.5em;
+    color: rgb(100, 190, 40);
+    margin-bottom: 10px;
+}
+.image-container-massage {
+    width: 40%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.massage-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+}
+
+.sonya-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.sonya-image {
+    width: 70%;
+    margin-left: 50px;
+    object-fit: cover;
+    object-position: top;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+
+.team-container, .massage-container {
+    margin-top: 30px;
+    margin-bottom: 50px;
+}
+.team-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: top;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.3);
+}
+.team-name {
+    font-family: 'Quicksand', sans-serif;
+    font-size: 4em;
+    color: rgb(100, 190, 40);
+}
+
+.maps-frame {
+    border: 0;
+    height: 400px;
+    width: 100%;
+}
+
+.disclaimer-container {
+    display: grid;
+    grid-template-columns: 90px 1fr 90px;
+}
+.disclaimer-image {
+    width: 90px;
+    height: 90px;
+    object-fit: cover;
+}
+.disclaimer-textbox {
+    background-color: #960000;
+}
+.disclaimer-text {
+    color: white;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+    padding: 8px;
+}
+
+.center {
+    text-align: center;
+    padding-bottom: 10px;
+}
