@@ -1,210 +1,372 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
-    <title>The Tube</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TheTube</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
-    <style>
-      p {
-        font-family: "Roboto", sans-serif;
-        margin-top: 0;
-        margin-bottom: 0;
-      }
-      .search-bar {
-        display: block;
-        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-        font-size: 20px;
-        margin-bottom: 20px;
-        padding-left: 10px;
-        width: 300px;
-        border-radius: 15px;
-      }
-      .thumbnail {
-        width: 300px;
-        display: block;
-      }
-      .video-title {
-        margin-top: 0;
-        font-size: 14px;
-        font-weight: 700;
-        line-height: 20px;
-        margin-bottom: 12px;
-      }
-      .video-author,
-      .video-stats {
-        font-size: 12px;
-        color: rgb(96, 96, 96);
-        font-weight: 400;
-      }
-      .video-author {
-        margin-bottom: 4px;
-      }
-      .video-preview {
-        width: 321px;
-        display: inline-block;
-        vertical-align: top;
-        margin-right: 15px;
-        margin-bottom: 35px;
-      }
-      .channel-picture {
-        display: inline-block;
-        width: 50px;
-        vertical-align: top;
-      }
-      .video-info {
-        display: inline-block;
-        width: 265px;
-      }
-      .profile-picture {
-        width: 100%;
-        border-radius: 25px;
-      }
-      .thumbnail-row {
-        margin-bottom: 12px;
-      }
 
-
-    </style>
+    <link rel="stylesheet" href="styles/tube-general.css">
+    <link rel="stylesheet" href="styles/tube-header.css">
+    <link rel="stylesheet" href="styles/tube-sidebar.css">
+    <link rel="stylesheet" href="styles/tube-video.css">
   </head>
+
   <body>
-    <input class="search-bar" type="text" placeholder="Search">
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <iframe width="321" height="180" src="https://www.youtube.com/embed/gsqQmv5u2k4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div>
-        <div class="channel-picture">
-          <img class="profile-picture" src="img/channel_profile.jpg" alt="">
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            【Nightcore】- あとひとつ／Ato Hitotsu 『FUNKY MONKEY BABYS』
-          </p>
-          <p class="video-author">
-            Pleng Chang
-          </p>
-          <p class="video-stats">
-            2.1M Aufrufe &#183; 20.08.2018
-          </p>
-        </div>
-      </div>
-    </div>
+    <header class="header">
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <iframe width="321" height="180" src="https://www.youtube.com/embed/UyDdIkx40sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+      <div class="left-section">
+        <img class="hamburger-menu" src="icons/hamburger-menu.svg" alt="">
+        <img class="thetube-logo" src="icons/thetube-logo.svg" alt="">
       </div>
-      <div>
-        <div class="channel-picture">
-          <img class="profile-picture" src="img/channel_profile.jpg" alt="">
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            【Nightcore】- Lemon 『米津玄師／Yonezu Kenshi』
-          </p>
-          <p class="video-author">
-            Pleng Chang
-          </p>
-          <p class="video-stats">
-            2.1M Aufrufe &#183; 20.08.2018
-          </p>
-        </div>
-      </div>
-    </div>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <iframe width="321" height="180" src="https://www.youtube.com/embed/bADgxvjtKQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div>
-        <div class="channel-picture">
-          <img class="profile-picture" src="img/channel_profile.jpg" alt="">
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            【Nightcore】- 空も飛べるはず／Sora mo Toberu Hazu 『スピッツ／Spitz』
-          </p>
-          <p class="video-author">
-            Pleng Chang
-          </p>
-          <p class="video-stats">
-            2.1M Aufrufe &#183; 20.08.2018
-          </p>
-        </div>
-      </div>
-    </div>
+      <div class="middle-section">
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <iframe width="321" height="180" src="https://www.youtube.com/embed/mgKxingRLAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div>
-        <div class="channel-picture">
-          <img class="profile-picture" src="img/channel_profile.jpg" alt="">
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            【Nightcore】- キンモクセイ(Kinmokusei)『オレンジスパイニクラブ／Orange Spiny Crab』
-          </p>
-          <p class="video-author">
-            Pleng Chang
-          </p>
-          <p class="video-stats">
-            2.1M Aufrufe &#183; 20.08.2018
-          </p>
-        </div>
-      </div>
-    </div>
+        <input class="search-bar" type="text" placeholder="Search">
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <iframe width="321" height="180" src="https://www.youtube.com/embed/3r0azx78SjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-      </div>
-      <div>
-        <div class="channel-picture">
-          <img class="profile-picture" src="img/channel_profile.jpg" alt="">
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            【Nightcore】- スパークル／Sparkle 『RADWIMPS』-『君の名は。／Kimi no Na wa／Your Name』
-          </p>
-          <p class="video-author">
-            Pleng Chang
-          </p>
-          <p class="video-stats">
-            2.1M Aufrufe &#183; 20.08.2018
-          </p>
-        </div>
-      </div>
-    </div>
+        <a href="https://www.youtube.com/" target="_blanc">
+          <button class="search-button">
+            <img class="search-icon" src="icons/search.svg" alt="">
+            <div class="tooltip">Search</div>
+          </button>
+        </a>
 
-    <div class="video-preview">
-      <div class="thumbnail-row">
-        <iframe width="321" height="180" src="https://www.youtube.com/embed/SxzdG1zHJak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <button class="voice-search-button">
+          <img class="voice-search-icon" src="icons/voice-search-icon.svg" alt="">
+          <div class="tooltip">Search with your voice</div>
+        </button>
+        
       </div>
-      <div>
-        <div class="channel-picture">
-          <img class="profile-picture" src="img/channel_profile.jpg" alt="">
-        </div>
-        <div class="video-info">
-          <p class="video-title">
-            【Nightcore】- 小さな恋のうた／Chiisa na Koi no Uta 『MONGOL800』
-          </p>
-          <p class="video-author">
-            Pleng Chang
-          </p>
-          <p class="video-stats">
-            2.1M Aufrufe &#183; 20.08.2018
-          </p>
-        </div>
-      </div>
-    </div>
 
+      <div class="right-section">
+
+        <div class="upload-icon-container">
+          <div class="upload-icon"></div>
+        </div>
+
+        <div class="thetube-apps-icon-container">
+          <div class="thetube-apps-icon"></div>
+        </div>
+
+        <div class="notifications-icon-container">
+          <div class="notifications-icon"></div>
+        </div>
+
+
+        <!--  
+          <div class="upload-icon-container">
+            <img class="upload-icon" src="icons/upload.svg" alt="">
+            <div class="tooltip">Create</div>
+          </div>
+          
+          <div class="thetube-apps-icon-container">
+            <img class="thetube-apps-icon" src="icons/thetube-apps.svg" alt="">
+            <div class="tooltip">TheTube Apps</div>
+          </div>
+
+          <div class="notifications-icon-container">
+            <img class="notifications-icon" src="icons/notifications.svg" alt="">
+            <div class="notifications-count">3</div>
+            <div class="tooltip">Notifications</div>
+          </div>
+        -->
+
+        <img class="current-user-picture" src="channel-pictures/kronii.jpg" alt="">
+
+      </div>
+
+    </header>
+
+    <nav class="sidebar">
+      <div class="sidebar-link"><img src="icons/home.svg" alt=""><div>Home</div></div>
+      <div class="sidebar-link"><img src="icons/explore.svg" alt=""><div>Explore</div></div>
+      <div class="sidebar-link"><img src="icons/subscriptions.svg" alt=""><div>Subscriptions</div></div>
+      <div class="sidebar-link"><img src="icons/originals.svg" alt=""><div>Originals</div></div>
+      <div class="sidebar-link"><img src="icons/thetube-music.svg" alt=""><div>TheTube Music</div></div>
+      <div class="sidebar-link"><img src="icons/library.svg" alt=""><div>Library</div></div>
+    </nav>
+    
+    <main>
+      <section class="video-grid">
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+              <iframe width="100%" src="https://www.youtube.com/embed/gsqQmv5u2k4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+              <div class="video-time">4:59</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel_profile.jpg" alt="">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                【Nightcore】- あとひとつ／Ato Hitotsu 『FUNKY MONKEY BABYS』
+              </p>
+              <p class="video-author">
+                Pleng Chang
+              </p>
+              <p class="video-stats">
+                2.1M Aufrufe &#183; 20.08.2018
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <iframe width="100%" src="https://www.youtube.com/embed/UyDdIkx40sg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-time">3:43</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel_profile.jpg" alt="">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                【Nightcore】- Lemon 『米津玄師／Yonezu Kenshi』
+              </p>
+              <p class="video-author">
+                Pleng Chang
+              </p>
+              <p class="video-stats">
+                2.2M Aufrufe &#183; 21.12.2018
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <iframe width="100%" src="https://www.youtube.com/embed/bADgxvjtKQM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-time">4:06</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel_profile.jpg" alt="">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                【Nightcore】- 空も飛べるはず／Sora mo Toberu Hazu 『スピッツ／Spitz』
+              </p>
+              <p class="video-author">
+                Pleng Chang
+              </p>
+              <p class="video-stats">
+                2.1M Aufrufe &#183; 23.09.2017
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <iframe width="100%" src="https://www.youtube.com/embed/mgKxingRLAU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-time">3:20</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel_profile.jpg" alt="">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                【Nightcore】- キンモクセイ(Kinmokusei)『オレンジスパイニクラブ／Orange Spiny Crab』
+              </p>
+              <p class="video-author">
+                Pleng Chang
+              </p>
+              <p class="video-stats">
+                10.600 Aufrufe &#183; 17.08.2021
+              </p>
+            </div>
+          </div>
+        </div>
+    
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <iframe width="100%" src="https://www.youtube.com/embed/3r0azx78SjQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-time">4:36</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel_profile.jpg" alt="">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                【Nightcore】- スパークル／Sparkle 『RADWIMPS』-『君の名は。／Kimi no Na wa／Your Name』
+              </p>
+              <p class="video-author">
+                Pleng Chang
+              </p>
+              <p class="video-stats">
+                258T Aufrufe &#183; 20.08.2018
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <iframe width="100%" src="https://www.youtube.com/embed/uzqkS_LmCag" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-time">2:42</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel_profile.jpg" alt="">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                【Nightcore】- Teenager Forever『King Gnu』
+              </p>
+              <p class="video-author">
+                Pleng Chang
+              </p>
+              <p class="video-stats">
+                8.600 Aufrufe &#183; 12.08.2021
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <iframe width="100%" src="https://www.youtube.com/embed/H5t5Y4H48cM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>    <div class="video-time">3:55</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel_profile.jpg" alt="">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                【Nightcore】- 白日／Hakujitsu『King Gnu』
+              </p>
+              <p class="video-author">
+                Pleng Chang
+              </p>
+              <p class="video-stats">
+                17.100 Aufrufe &#183; 10.08.2021
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <iframe width="100%" src="https://www.youtube.com/embed/AZlFek6d4Os" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-time">5:00</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel_profile.jpg" alt="">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                【Nightcore】- 群青／Gunjou『YOASOBI』
+              </p>
+              <p class="video-author">
+                Pleng Chang
+              </p>
+              <p class="video-stats">
+                29.500 Aufrufe &#183; 24.06.2021
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <iframe width="100%" src="https://www.youtube.com/embed/CunvcQyVJcw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-time">3:27</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel_profile.jpg" alt="">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                【Nightcore】- 正しくなれない／Tadashiku Narenai『ずっと真夜中でいいのに。／ZUTOMAYO』
+              </p>
+              <p class="video-author">
+                Pleng Chang
+              </p>
+              <p class="video-stats">
+                24.000 Aufrufe &#183; 13.04.2021
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <iframe width="100%" src="https://www.youtube.com/embed/zve1R5tqFWM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-time">3:24</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel_profile.jpg" alt="">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                【Nightcore】- カワキヲアメク／Kawaki wo Ameku『美波／Minami』
+              </p>
+              <p class="video-author">
+                Pleng Chang
+              </p>
+              <p class="video-stats">
+                10.600 Aufrufe &#183; 15.03.2021
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <iframe width="100%" src="https://www.youtube.com/embed/HBYXARkLVcs" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-time">3:23</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel_profile.jpg" alt="">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                【Nightcore】- それが大事／Sore ga Daiji 『大事MANブラザーズバンド／Daijiman Brothers Orchestra』
+              </p>
+              <p class="video-author">
+                Pleng Chang
+              </p>
+              <p class="video-stats">
+                174.000 Aufrufe &#183; 18.06.2021
+              </p>
+            </div>
+          </div>
+        </div>
+
+        <div class="video-preview">
+          <div class="thumbnail-row">
+            <iframe width="100%" src="https://www.youtube.com/embed/SxzdG1zHJak" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="video-time">4:15</div>
+          </div>
+          <div class="video-info-grid">
+            <div class="channel-picture">
+              <img class="profile-picture" src="channel-pictures/channel_profile.jpg" alt="">
+            </div>
+            <div class="video-info">
+              <p class="video-title">
+                【Nightcore】- 小さな恋のうた／Chiisa na Koi no Uta 『MONGOL800』
+              </p>
+              <p class="video-author">
+                Pleng Chang
+              </p>
+              <p class="video-stats">
+                1.6M Aufrufe &#183; 07.09.2017
+              </p>
+            </div>
+          </div>
+        </div>
+        
+      </section>
+    </main>
   </body>
 </html>
-
-
-
-<p style="display:block;">>>> v0.2 <<<</p>
