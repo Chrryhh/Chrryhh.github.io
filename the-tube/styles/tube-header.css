@@ -40,6 +40,7 @@
 }
 
 .search-bar {
+  color: white;
   flex: 1;
   height: 36px;
   padding-left: 10px;
@@ -57,6 +58,12 @@
   box-shadow: inset 1px 2px 3px rgba(0, 0, 0, 0.05);
   /* width null = shrink by small window*/
   width: 0;
+}
+
+.search-bar:hover, .search-bar:focus {
+  color: white;
+  border: 1.5px solid rgb(40, 120, 200);
+  background-color: rgb(33, 33, 33);
 }
 
 .search-bar::placeholder {
