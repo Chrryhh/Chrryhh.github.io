@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>404 - Page not found</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            color: rgb(207, 216, 220);
+            margin: 0;
+            padding: 0;
+        }
+
+        h1 {
+            font-weight: 200;
+            font-size: 10em;
+            margin: 0;
+            padding-top: 50px;
+            padding-bottom: 50px;
+        }
+
+        h2, h3 {
+            margin-top: 0;
+            margin-bottom: 5px;
+        }
+
+        h3 {
+            padding-bottom: 20px;
+        }
+
+        a {
+            color: rgb(207, 216, 220);
+            font-weight: bold;
+        }
+
+        img {
+            width:auto;
+            height:auto;
+            max-width:100%;
+            max-height:90%;
+        }
+
+        .flex-container {
+            display: flex;
+            flex-direction: column;
+            height: 100vh;
+        }
+
+        @media all and (min-width: 70em) {
+        .flex-container {
+             flex-direction: row;
+            }
+        }
+
+        .text-container {
+            background-color: rgb(96, 125, 139);
+            padding-bottom: 30px;
+            padding-left: 30px;
+            padding-right: 30px;
+            flex: 1;
+        }
+
+        .image-container {
+            background-color: rgb(207, 216, 220);
+            padding: 30px;
+            flex: 1;
+        }
+
+    </style>
+</head>
+<body>
+
+    <div class="flex-container">
+
+        <!-- linkes Element -- HG blaugrau -->
+        <div class="text-container">
+            <h1>404</h1>
+
+            <h2>Herzlichen Glückwunsch!</h2>
+            <h3>Sie haben diese Bonusseite gefunden.</h3>
+
+            <p>Allerdings sollten Sie nun wieder zurück gehen, denn viel mehr gibt es hier nicht zu entdecken.</p>
+
+            <p>Oder folgen Sie <a href="https://chrryhh.github.io/" alt="Link zurück zur Startseite">diesem Link</a> zurück zur Startseite.</p>
+        </div>
+
+        <!-- rechtes Element -- HG hellgrau. --> 
+        <div class="image-container">
+            <img src="images/programmer-gc8a4506b6_640.png" alt="Illustration eines Programmierers bei der Arbeit">
+        </div>
+
+    </div>
+
+</body>
+</html>

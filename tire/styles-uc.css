@@ -3,7 +3,7 @@ body {
 
     background-color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
-    color: rgb(207, 216, 220);
+    color: rgb(233, 233, 233);
     margin: 0;
     padding: 0;
 }
@@ -36,7 +36,6 @@ h2 {
 }
 
 nav {
-    /*background-color: #ccc;*/
     background-color: #fff000;
     padding: 10px;
     padding-left: 30px;
@@ -56,44 +55,98 @@ nav li {
   
 nav a {
     text-decoration: none;
-    /*color: rgb(96, 125, 139);*/
-    color: rgb(0, 0, 0);
-    text-shadow: 0px 0px 2px #00ddff
-
+    color: #00a6eb;
 }
 
 a {
-    color: rgb(207, 216, 220);
+    color: rgb(233, 233, 233);
     font-weight: bold;
 }
 
 main {
     padding: 20px;
 }
-
-footer {
-    text-align: center;
-    padding: 10px;
-}
   
 section {
-    margin-bottom: 20px;
+
 }
 
 .article-container {
-    padding-bottom: 20px;
-    padding-left: 20px;
-    padding-right: 20px;
+    padding: 20px;
     margin: auto;
     max-width: 800px;
+}
 
+.seperator {
+    background-color: #00a6eb;
+    margin: auto;
+    margin-bottom: 20px;
+    height: 5px;
 }
 
 .article-image {
     padding-top: 20px;
-    width: 400px;
-
+    width: 100%;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
 }
+
+footer {
+    text-align: center;
+}
+
+.album-grid {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    column-gap: 40px;
+    row-gap: 50px;
+}
+
+/* MEDIA QUERY */
+@media (max-width: 600px) {
+.album-grid {grid-template-columns: 1fr;}
+}
+
+@media (min-width: 601px) and (max-width: 750px) {
+.album-grid {grid-template-columns: 1fr 1fr;}
+}
+
+@media (min-width: 751px) and (max-width: 999px) {
+.album-grid {grid-template-columns: 1fr 1fr 1fr;}
+}
+
+@media (min-width: 1000px) {
+.album-grid {grid-template-columns: 1fr 1fr 1fr 1fr;}
+}
+
+.album-preview:hover {
+    padding: 15px;
+    box-shadow: 0px 0px 20px 0px #00a6eb;
+	border-radius: 10px;
+}
+
+.album-thumbnail {
+    width: 100%;
+    position: relative;
+}
+
+.album-title {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+  
+.album-medium, .album-stats {
+    font-size: 14px;
+    color: #00a6eb;
+    font-weight: 400;
+    margin-bottom: 0;
+}
+  
+.album-medium {
+    margin-top: 0;
+    margin-bottom: 4px;
+}
+
+
