@@ -1,6 +1,5 @@
+    /*stylesheet: styles under construction css*/
 body {
-    /*background-color: rgb(96, 125, 139);*/
-
     background-color: rgb(0, 0, 0);
     font-family: Arial, Helvetica, sans-serif;
     color: rgb(233, 233, 233);
@@ -13,8 +12,8 @@ header {
    
 }
 
-.tr-logo {
-    display: block;
+.tire-logo {
+    display: block; 
     margin-left: auto;
     margin-right: auto;
     padding-top: 20px;
@@ -32,17 +31,22 @@ h1 {
 }
 
 h2 {
+    font-size: 2em;
     margin-top: 0;
     margin-bottom: 5px;
 }
 
+.article-title {
+    font-size: 2em;
+}
+
 .article-references {
     text-align: center;
-    color: #00a6eb;
+    color: rgb(0, 179, 255);
 }
 
 nav {
-    background-color: #fff000;
+    background-color: rgb(255, 240, 0);
     padding: 10px;
     padding-left: 30px;
     text-align: center;
@@ -61,16 +65,17 @@ nav li {
   
 nav a {
     text-decoration: none;
-    color: #00a6eb;
+    color: rgb(0, 179, 255);
 }
 
 nav a:hover {
-    color: #65d1ff;
+    color: rgb(80, 203, 255);
 }
 
 a {
     color: rgb(233, 233, 233);
     font-weight: bold;
+    text-decoration: none;
 }
 
 main {
@@ -88,7 +93,7 @@ section {
 }
 
 .seperator {
-    background-color: #00a6eb;
+    background-color: rgb(0, 179, 255);
     margin: auto;
     margin-bottom: 20px;
     height: 5px;
@@ -114,25 +119,14 @@ footer {
 }
 
 /* MEDIA QUERY */
-@media (max-width: 600px) {
-.album-grid {grid-template-columns: 1fr;}
-}
-
-@media (min-width: 601px) and (max-width: 750px) {
-.album-grid {grid-template-columns: 1fr 1fr;}
-}
-
-@media (min-width: 751px) and (max-width: 999px) {
-.album-grid {grid-template-columns: 1fr 1fr 1fr;}
-}
-
-@media (min-width: 1000px) {
-.album-grid {grid-template-columns: 1fr 1fr 1fr 1fr;}
-}
+@media (max-width: 600px) {.album-grid {grid-template-columns: 1fr;}}
+@media (min-width: 601px) and (max-width: 750px) {.album-grid {grid-template-columns: 1fr 1fr;}}
+@media (min-width: 751px) and (max-width: 999px) {.album-grid {grid-template-columns: 1fr 1fr 1fr;}}
+@media (min-width: 1000px) {.album-grid {grid-template-columns: 1fr 1fr 1fr 1fr;}}
 
 .album-preview:hover {
     padding: 15px;
-    box-shadow: 0px 0px 20px 0px #00a6eb;
+    box-shadow: 0px 0px 20px 0px rgb(0, 179, 255);
 	border-radius: 10px;
 }
 
@@ -150,7 +144,7 @@ footer {
   
 .album-medium, .album-stats {
     font-size: 14px;
-    color: #00a6eb;
+    color: rgb(0, 179, 255);
     font-weight: 400;
     margin-bottom: 0;
 }
@@ -160,4 +154,59 @@ footer {
     margin-bottom: 4px;
 }
 
+.disc-info {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    column-gap: 40px;
+    row-gap: 50px;
+}
 
+/* MEDIA QUERY */
+@media (max-width: 600px) {.disc-info {grid-template-columns: 1fr;}}
+@media (min-width: 601px) and (max-width: 750px) {.disc-info {grid-template-columns: 1fr;}}
+@media (min-width: 751px) and (max-width: 999px) {.disc-info {grid-template-columns: 1fr 2fr;}}
+@media (min-width: 1000px) {.disc-info {grid-template-columns: 1fr 2fr;}}
+
+.disc-info-cover {
+    width: 100%;
+}
+
+.songs {
+    padding: 50px;
+
+}
+
+.ritz .waffle .s3{
+    text-align:left;
+    color:rgb(255, 255, 255);
+    vertical-align:bottom;
+    white-space:nowrap;
+    direction:ltr;
+    padding:3px 10px 3px 10px;}
+
+.ritz .waffle .s0{
+    text-align:center;
+    font-weight:bold;
+    color:rgb(255, 255, 255);
+    vertical-align:bottom;
+    white-space:nowrap;
+    direction:ltr;
+    padding:3px 10px 3px 10px;}
+
+.ritz .waffle .s2{
+    text-align:center;
+    color:rgb(255, 255, 255);
+    vertical-align:bottom;
+    white-space:nowrap;
+    direction:ltr;
+    padding:3px 10px 3px 10px;}
+
+.ritz .waffle .s1{
+    text-align:left;
+    font-weight:bold;
+    color:rgb(255, 255, 255);
+    vertical-align:bottom;
+    white-space:nowrap;
+    direction:ltr;
+    padding:3px 10px 3px 10px;}
