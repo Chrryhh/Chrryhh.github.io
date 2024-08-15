@@ -159,46 +159,51 @@ footer {
 .disc-info {
     padding: 50px;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 1fr 1fr;
     column-gap: 40px;
     row-gap: 50px;
 }
 
 /* MEDIA QUERY */
-@media (max-width: 600px) {.disc-info {grid-template-columns: 1fr;}}
-@media (min-width: 601px) and (max-width: 750px) {.disc-info {grid-template-columns: 1fr;}}
-@media (min-width: 751px) and (max-width: 999px) {.disc-info {grid-template-columns: 1fr 2fr;}}
-@media (min-width: 1000px) {.disc-info {grid-template-columns: 1fr 2fr;}}
+@media (max-width: 750px) {.disc-info {grid-template-columns: 1fr;}}
+@media (min-width: 751px) and (max-width: 999px) {.disc-info {grid-template-columns: 1fr 1fr;}}
+@media (min-width: 1000px) {.disc-info {grid-template-columns: 1fr 1fr;}}
+
 
 .disc-info-cover {
     width: 100%;
+    max-width: 380px;
+    text-align: right;
 }
 
-.zentriere-die-scheiße-endlich {
+.disc-info-text{
+    text-align: left;
+}
+
+.waffle{
     text-align: center;
     margin: 0 auto;
-    width: 100%;
 }
 
-.ritz .waffle .s0{
+.waffle .s0{
     text-align:center;
     font-weight:bold;
-    color:rgb(255, 255, 255);
+    color: rgb(233, 233, 233);
     padding:3px 10px 3px 10px;}
 
-.ritz .waffle .s1{
+.waffle .s1{
     text-align:left;
     font-weight:bold;
-    color:rgb(255, 255, 255);
+    color: rgb(233, 233, 233);
     padding:3px 10px 3px 10px;}
 
-.ritz .waffle .s2{
+.waffle .s2{
     text-align:center;
-    color:rgb(255, 255, 255);
+    color: rgb(233, 233, 233);
     padding:3px 10px 3px 10px;}
 
-.ritz .waffle .s3{
+.waffle .s3{
     text-align:left;
-    color:rgb(255, 255, 255);
+    color: rgb(233, 233, 233);
     padding:3px 10px 3px 10px;}
 
